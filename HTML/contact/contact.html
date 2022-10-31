@@ -1,14 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <h1>Welcome to Contact Page</h1>
-    <h3>Contact</h3>
+  </head>
+  <body>
+    <h1>Contact Us</h1>
+    <h3>You can reach us using this form</h3>
     <a href="../index.html">Home</a>
-</body>
+
+    <div id="contact-form">
+      <form action="" method="post">
+        <label for="full-name">Full Name: </label><br />
+        <input type="text" name="full-name" placeholder="Full name" />
+        <br />
+        <label for="email">Email :</label><br />
+        <input type="email" name="email" placeholder="email@email.com" />
+        <br />
+        <label for="phoneNumber">Phone Number :</label><br />
+        <input
+          type="phoneNumber"
+          name="phoneNumber"
+          placeholder="Phone Number"
+        />
+        <br /><br />
+        <textarea name="contents" id="" cols="30" rows="10"></textarea><br>
+        <select name="social-media-ids" id="">
+            <option value="facebook">Facebook</option>
+            <option value="linkedIn">LinkedIn</option>
+            <option value="twitter">Twitter</option>
+        </select>
+        <input
+          type="text"
+          name="social-media-id"
+        />
+        <br>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </body>
 </html>
