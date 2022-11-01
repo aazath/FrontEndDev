@@ -28,8 +28,68 @@ nav .branding-image{
     flex: 1;
     margin: auto;
 }
+
+.nav-logo img{
+    height: 120px;
+}
+
+.nav-logo{
+    display: block;
+}
 .nav-link{
     text-decoration: none;
-    color: blue;
+    color: #E03B8B;
     font-size: 25px;
+}
+
+.nav-button{
+    background-color: #E03B8B;
+    border: none;
+    padding: 5px 40px;
+    color: white;
+    border-radius: 20px;
+    cursor: grab;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    height: 80vh;
+}
+
+.col{
+    display: flex;
+    flex: 0.5;
+    min-height: 100%;
+}
+
+.col-2{
+    overflow: hidden;
+}
+
+.home-image{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    height: 80%;
+}
+
+.col-1{
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #E03B8B;
+}
+
+.col-1 p{
+    font-size: 25px;
+}
+
+.col-1 h1{
+    font-size: 75px;
+}
+
+.google-play-button{
+    height: 90px;
 }
