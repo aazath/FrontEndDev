@@ -15,6 +15,13 @@
 
 img{
     display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
+    padding-top: 30px;
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
 }
 body{
     height: 100%;
@@ -24,4 +31,28 @@ body{
 
 .banner{
     background-color: var(--white);
+    padding: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+}
+
+.text-container{
+    
+    width: 60%;
+    display: block;
+    align-items: center;
+    margin: 0 auto;
+    
+}
+
+h1{
+    font-size: 90px;
+    text-align: center;
+    color: var(--black);
+}
+
+p{
+    color: var(--grey);
+    text-align: right;
+    font-size: 26px;
+    font-weight: 200;
 }
