@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&display=swap');
+
+body{
+    font-family: Montserrat,serif;
+    background: rgb(34,193,195);
+    background: linear-gradient(90deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+}
+
+h1{
+    font-size: 70px;
+    text-align: center;
+    margin-top: 20%;
+    font-family: "Montserrat";
+    font-weight: 400;
+}
+
+span{
+    font-size: 80px;
+    font-weight: 700;
+    color: #1f1f1f;
+}
+
+p{
+    text-align: center;
+}
