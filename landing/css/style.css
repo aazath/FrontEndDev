@@ -36,5 +36,20 @@ button{
     border-radius: 0.6em;
     color: #1f1f1f;
     font-weight: 400;
-    padding: 1.2em;
+    padding: 1.2em 2.5em;
+    cursor: grab;
+    text-transform: uppercase;
+}
+
+.btn:hover{
+    color: white;
+    outline: 0;
+}
+
+.aya{
+    transition: box-shadow 300ms ease-in-out, color 300ms ease-in-out;
+}
+
+.aya:hover{
+    box-shadow: 0 0 40px 40px #1f1f1f inset;
 }
