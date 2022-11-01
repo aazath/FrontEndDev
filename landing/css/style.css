@@ -53,3 +53,9 @@ button{
 .aya:hover{
     box-shadow: 0 0 40px 40px #1f1f1f inset;
 }
+
+.footer{
+    background-color: aliceblue;
+    margin-top: 20px;
+    padding-top: 20px;
+}
