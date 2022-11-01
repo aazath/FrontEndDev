@@ -23,3 +23,18 @@ span{
 p{
     text-align: center;
 }
+
+button{
+    margin: auto;
+    display: block;
+}
+
+.btn{
+    background-color: transparent;
+    border: 1px solid  #1f1f1f;
+    font-size: 1rem;
+    border-radius: 0.6em;
+    color: #1f1f1f;
+    font-weight: 400;
+    padding: 1.2em;
+}
