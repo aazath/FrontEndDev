@@ -6,3 +6,30 @@ body{
     background-repeat: no-repeat;
     margin: 0 5%;
 }
+
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+}
+
+nav .nav-menu-icon{
+    display: none;
+}
+
+nav .nav-items{
+    list-style-type: none;
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .branding-image{
+    flex: 1;
+    margin: auto;
+}
+.nav-link{
+    text-decoration: none;
+    color: blue;
+    font-size: 25px;
+}
